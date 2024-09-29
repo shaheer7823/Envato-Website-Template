@@ -1,0 +1,736 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+*::-webkit-scrollbar {
+    display: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+/* FULL CODE MY HEADER AND NAV SECTION */
+
+header .logo-div {
+    padding: 0px 18px;
+    width: 100%;
+    height: 50px;
+    background-color: #262626;
+    border-bottom: 1px solid #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 9;
+}
+
+.logo-div .image-div {
+    width: 160px;
+    height: 18px;;
+}
+
+.image-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.logo-div button {
+    padding: 9px 21px;
+    border: none;
+    border-radius: 5px;
+    background-color: #82B440;
+    color: #fff;
+    font-weight: 600;
+    transition: backg;
+}
+
+
+/* SECOND SECTION IN MY NAVBAR */
+.icon-div {
+    width: 100%;
+    height: 90px;
+    background-color: #252525;
+    padding: 0px 58px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.icon-div  .icon-inner-div {
+    width: 220px;
+    height: 89px;
+}
+
+.icon-div .icon-inner-div img {
+    width: 100%;
+    height: 100%;
+}
+
+.icon-div ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.icon-div ul li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3vw;
+}
+
+
+/* MY MAIN NAV SECTION START HERE */
+header nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 60px 0px 58px;
+    width: 100%;
+    height: 75px;
+    /* background-color: red; */
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    font-size: 1.3vw;
+    color: #252525;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+}
+
+
+
+/* MY FIRST CONTAINER CODING START HERE */
+.page1 {
+    width: 100%;
+    height: 78vh;
+    background-color: red;
+    text-align: center;
+    background: url("./assets/images/slider1_background-1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.page1 h1 {
+    width: 71vw;
+    /* background-color: red; */
+    line-height: 8.3vw;
+    font-size: 7.3vw;
+    letter-spacing: 1vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.page1 p {
+    color: #ffffffa6;
+    font-size: 2vw;
+    line-height: 3vw;
+    margin-bottom: 45px;
+}
+
+.page1 button {
+    padding: 15px 30px;
+    color: #fff;
+    border: none;
+    background-color: #1D6AC3;
+}
+
+
+/* MY ANOTHER CONTAINER SECTION */
+
+
+.page2 {
+    width: 100%;
+    height: 60vh;
+    padding: 0px 58px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.page2 .left-img-section {
+    width: 47%;
+    height: 29%;
+}
+
+.page2 .left-img-section img {
+    width: 100%;
+    height: 100%;
+}
+
+.page2 .right-content-section {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 30px;
+}
+
+.page2 .right-content-section h1 {
+    font-size: 3.3vw;
+    color: #252525;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.page2 .right-content-section p {
+    width: 375px;
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+    color: #000000ab;
+}
+
+.page2 .right-content-section button {
+    padding: 13px 14px;
+    border: 2px solid #1F71D0;
+    color: #1F71D0;
+    transition: all 0.3s ease;
+}
+
+.right-content-section button:hover {
+    background-color: #1F71D0;
+    color: #fff;
+}
+
+
+/* PAGE3 CODING ARE STARTING HERE */
+.page3 {
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    background: url("./assets/images/background_section1.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.page3 .left-progress-bar {
+    width: 55%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+
+}
+
+.page3 p {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin: 10px 0px 10px 15px;
+    font-size: 1.6vw;
+    letter-spacing: 0.2vw;
+
+}
+
+.page3 .progress {
+    width: 45vw;
+    height: 40px;
+    border-radius: 3px;
+    background-color: #fff;
+    margin: 0px 0px 10px 15px;
+    overflow: hidden;
+}
+
+.page3 .progress .progress-bar {
+    width: 50%;
+    height: 100%;
+    background-color: #1F71D0;
+}
+
+.page3 .right-human-image {
+    width: 35%;
+    height: 100%;
+}
+
+.page3 .right-human-image img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* THERE ARE PAGE4 STYLING STARTED HERE */
+.page4 {
+    width: 100%;
+    height: 120vh;
+    padding: 1px 0px;
+}
+
+.page4 .main-flex {
+    margin: auto;
+    margin-top: 77px;
+    width: 90%;
+    height: 85%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+} 
+
+.page4 .main-flex .left-flex {
+    width: 30%;
+    height: 100%;
+}
+
+.left-flex .box {
+    width: 100%;
+    height: 280px;
+    margin-bottom: 15px;
+}
+
+.left-flex .box img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.page4 .main-flex .right-flex {
+    width: 70%;
+    height: 100%;
+}
+
+.right-flex img {
+    width: 100%;
+    height: 100%;
+}
+
+
+/* THERE ARE PAGE5 STYLING STARTED HERE */
+.page5 {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.page5 .flex-content {
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+
+
+.page5 .flex-content h1 {
+    font-size: 3.3vw;
+    color: #252525;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    line-height: 2.8vw;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+.page5 .flex-content p {
+    width: 490px;
+    font-size: 1.5vw;
+    line-height: 2.2vw;
+    color: #000000ab;
+    margin-bottom: 20px;
+    margin-left: 60px;
+}
+
+.page5 .flex-content button {
+    padding: 13px 14px;
+    border: 2px solid #1F71D0;
+    color: #1F71D0;
+    transition: all 0.3s ease;
+    margin-left: 60px;
+}
+
+.page5 button:hover {
+    background-color: #1F71D0;
+    color: #fff;
+}
+
+.flex-content img {
+    width: 100%;
+    height: 100%;
+}
+
+.page5 .flex-content-last {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-content-last .box1 {
+    width: 250px;
+    height: 250px;
+    border: 2px solid #252525;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 0px;
+}
+
+.flex-content-last .box1 p { 
+    width: 154px;
+    font-size: 3vw;
+    color: #252525;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+}
+
+.flex-content-last .box1 .content-last {
+    text-align: center;
+    border-top: 2px solid #252525;
+    width: 100%;
+    height: 0;
+    margin-top: 18px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    color: #252525;
+    padding-top: 13px;
+    font-size: 1.5vw;
+}
+
+/* THERE ARE PAGE6 STYLING STARTED HERE */
+.page6 {
+    width: 100%;
+    height: 70vh;
+    padding-top: 1px;
+}
+
+.page6 .card-container {
+    margin-top: 82px;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-container .card {
+    width: 370px;
+    height: 426px;
+    background-color: #EEF0F3;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+  
+.card .effect {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 3px;
+    background-color: #1D6AC3;
+    opacity: 0;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover .effect {
+    opacity: 1;
+}
+
+.card .card-content {
+    width: 300px;
+    border-radius: 2px;
+}
+
+.card .card-content:first-child {
+    font-size: 2vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    padding-top: 20px;
+}
+
+.card-content:nth-child(2) {
+    border-top: 3px solid #DCDFE3;
+    border-bottom: 3px solid #DCDFE3;
+}
+
+.card-content:nth-child(2) p {
+    /* background-color: red; */
+    font-size: 2.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+.card-content:nth-child(3) p {
+    text-align: end;
+    margin-bottom: 6px;
+    font-size: 1.3vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.card-content:nth-child(4) button {
+    width: 90%;
+    height: 50px;
+    margin-left: 17px;
+    border-radius: 30px;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #fff;
+    background-color: #1F71D0;
+
+}
+
+
+/* THERE ARE PAGE7 STYLING STARTED HERE */
+.page7 {
+    width: 100%;
+    height: 107vh;
+    text-align: center;
+}
+
+.page7 > h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-size: 3vw;
+    margin-bottom: 30px;
+}
+
+.page7 .container-div-flex {
+    width: 90%;
+    height: 85vh;
+    margin-left: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-div-flex .flex-card-div {
+    width: 50%;
+    height: 50%;
+    background-color: #1F71D0;
+    margin-bottom: 25px;
+    color: #fff;
+}
+
+.flex-card-div:nth-child(2) img,
+.flex-card-div:nth-child(3) img {
+    width: 100%;
+    height: 100%;
+}
+
+.flex-card-div h1 {
+    text-align: start;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.flex-card-div .span-div {
+    text-align: start;
+    margin-top: 10px;
+    margin-left: 47px;
+}
+
+.flex-card-div p {
+    text-align: start;
+    width: 490px;
+    font-size: 1.5vw;
+    line-height: 2vw;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.flex-card-div button {
+    padding: 10px 20px;
+    border: 2px solid #E9F1FA;
+    margin-top: 40px;
+    background-color: #1F71D0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    color: #fff;
+}
+
+
+/* THERE ARE PAGE8 STYLING with swperjs STARTED HERE */
+
+.swiper {
+    width: 93%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px;
+    margin-bottom: 70px;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+
+/* THERE ARE PAGE10 STYLING with swperjs STARTED HERE */
+.page10 {
+    width: 100%;
+    height: 86vh;
+    background-color: red;
+    margin-top: 1px;
+}
+
+.page10 .container-form {
+    width: 100%;
+    height: 75vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form .map-div {
+    width: 50%;
+    height: 100%;
+}
+
+.container-form .form-div {
+    width: 50%;
+    height: 100%;
+    background: url("./assets/images/pricing_style1_background.jpg") no-repeat;
+    background-position: right;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-form .form-div h1 {
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    font-size: 3vw;
+    color: #fff;
+}
+
+.container-form .form-div button {
+    padding: 16px 28px;
+    border-radius: 4px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    border: none;
+    background-color: #1D6AC4;
+    color: #fff;
+
+}
+
+.form-div form {
+    width: 81%;
+    height: 29vh;
+}
+
+.form-div form .text-input {
+    width: 235px;
+    height: 55px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    border-radius: 4px;
+    padding-left: 20px;
+    background-color: #918f8f4d;
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.form-div form .text-input::placeholder {
+    color: #fff;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+.form-div form .text-input:last-child {
+    width: 495px;
+}
+
+.container-form .map-div img {
+    width: 100%;
+    height: 100%;
+}
+
+
+footer {
+    width: 100%;
+    height: calc(87vh - 75vh);
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 58px;
+}
+
+footer p {
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    color: #fff;
+}
+
+footer button {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    border: 2px solid #5E5E5E;
+    background-color: #252525;
+    margin-right: 5px;
+}
+
+footer button img {
+    width: 100%;
+    height: 100%;
+    padding: 3px;
+}
+
+
